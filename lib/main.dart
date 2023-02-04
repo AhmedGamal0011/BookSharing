@@ -11,7 +11,7 @@ import 'package:flutter/services.dart';
 User user;
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  var defaultFirebaseOptions = DefaultFirebaseOptions();
+  // var defaultFirebaseOptions = DefaultFirebaseOptions();
   
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   user = FirebaseAuth.instance.currentUser;
