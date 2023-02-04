@@ -57,14 +57,17 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                         : 'Enter a valid email address';
                   }),
             ),
-            FlatButton(
+            ElevatedButton(
               child: Text(
                 'Send reset Link',
                 style: TextStyle(
                   color: Colors.white,
                 ),
               ),
-              color: Colors.red[700],
+              style: ElevatedButton.styleFrom(
+                primary: Colors.red[700],
+              
+              ),
               onPressed: () {
                 if (_formKey.currentState.validate()) {
                   _formKey.currentState.save();

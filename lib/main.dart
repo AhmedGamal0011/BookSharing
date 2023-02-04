@@ -1,3 +1,4 @@
+import 'package:book_share/firebase_options.dart';
 import 'package:book_share/screens/mybooks.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -10,7 +11,9 @@ import 'package:flutter/services.dart';
 User user;
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  var defaultFirebaseOptions = DefaultFirebaseOptions();
+  
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   user = FirebaseAuth.instance.currentUser;
   runApp(MyApp());
 }

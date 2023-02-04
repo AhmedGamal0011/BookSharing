@@ -339,7 +339,7 @@ class _BuyBooksState extends State<BuyBooks> {
                                 content: Text(
                                     'Book name\nAuthor\'s name\nCourse name\nYear/Semester\nBranch'),
                                 actions: <Widget>[
-                                  FlatButton(
+                                  ElevatedButton(
                                     child: Text(
                                       'Done',
                                       style: TextStyle(

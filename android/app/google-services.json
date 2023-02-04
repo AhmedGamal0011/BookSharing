@@ -1,35 +1,41 @@
 {
   "project_info": {
-    "project_number": "74812586905",
-    "firebase_url": "https://bookshare-3bf63.firebaseio.com",
-    "project_id": "bookshare-3bf63",
-    "storage_bucket": "bookshare-3bf63.appspot.com"
+    "project_number": "291120926282",
+    "project_id": "book-share-d25e5",
+    "storage_bucket": "book-share-d25e5.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:74812586905:android:cd7b0ee194ec932c0c3108",
+        "mobilesdk_app_id": "1:291120926282:android:30868bbe1248adf61b60b3",
         "android_client_info": {
           "package_name": "jalak.book_share"
         }
       },
       "oauth_client": [
         {
-          "client_id": "74812586905-hf63uqd4t4ru5e96cb7f3mt7gtm4nird.apps.googleusercontent.com",
+          "client_id": "291120926282-poflpgr57kt0a3kkpoof8nkqc5aelpc1.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAtTQ-ogOew0YBuLXHWtqhTxQ-_vbrq-48"
+          "current_key": "AIzaSyDMa0anPIh8_Tw6njT8XJTtog43jV4xiZA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "74812586905-hf63uqd4t4ru5e96cb7f3mt7gtm4nird.apps.googleusercontent.com",
+              "client_id": "291120926282-poflpgr57kt0a3kkpoof8nkqc5aelpc1.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "291120926282-7gco7khetoh27h3bc2qidlh1pee6fq67.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "jalak.bookShare"
+              }
             }
           ]
         }

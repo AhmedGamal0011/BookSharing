@@ -285,7 +285,7 @@ class _MessageBubbleState extends State<MessageBubble> {
                       ),
                       content: Text('Do you want to delete this message ?'),
                       actions: <Widget>[
-                        FlatButton(
+                        ElevatedButton(
                           child: Text(
                             'No',
                             style: TextStyle(
@@ -296,7 +296,7 @@ class _MessageBubbleState extends State<MessageBubble> {
                             Navigator.of(context).pop();
                           },
                         ),
-                        FlatButton(
+                        ElevatedButton(
                           child: Text(
                             'Yes',
                             style: TextStyle(

@@ -202,7 +202,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                               textAlign: TextAlign.center,
                                             ),
                                             actions: <Widget>[
-                                              FlatButton(
+                                              ElevatedButton(
                                                 child: Text(
                                                   'Cancel',
                                                   style: TextStyle(
@@ -214,7 +214,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                                   Navigator.of(context).pop();
                                                 },
                                               ),
-                                              FlatButton(
+                                              ElevatedButton(
                                                 child: Text(
                                                   'Done',
                                                   style: TextStyle(
@@ -305,7 +305,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                             textAlign: TextAlign.center,
                                           ),
                                           actions: <Widget>[
-                                            FlatButton(
+                                            ElevatedButton(
                                               child: Text(
                                                 'Cancel',
                                                 style: TextStyle(
@@ -317,7 +317,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                                                 Navigator.of(context).pop();
                                               },
                                             ),
-                                            FlatButton(
+                                            ElevatedButton(
                                               child: Text(
                                                 'Done',
                                                 style: TextStyle(

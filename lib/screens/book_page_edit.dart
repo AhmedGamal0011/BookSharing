@@ -291,7 +291,7 @@ class _BookPageEditState extends State<BookPageEdit> {
                                 ),
                               ),
                               actions: <Widget>[
-                                FlatButton(
+                                ElevatedButton(
                                   child: Text(
                                     'Cancel',
                                     style: TextStyle(
@@ -301,7 +301,7 @@ class _BookPageEditState extends State<BookPageEdit> {
                                     Navigator.of(context).pop();
                                   },
                                 ),
-                                FlatButton(
+                                ElevatedButton(
                                   child: Text(
                                     'Done',
                                     style: TextStyle(
@@ -407,7 +407,7 @@ class _BookPageEditState extends State<BookPageEdit> {
                                 ),
                               ),
                               actions: <Widget>[
-                                FlatButton(
+                                ElevatedButton(
                                   child: Text(
                                     'Cancel',
                                     style: TextStyle(
@@ -417,7 +417,7 @@ class _BookPageEditState extends State<BookPageEdit> {
                                     Navigator.of(context).pop();
                                   },
                                 ),
-                                FlatButton(
+                                ElevatedButton(
                                   child: Text(
                                     'Done',
                                     style: TextStyle(
@@ -523,7 +523,7 @@ class _BookPageEditState extends State<BookPageEdit> {
                                 ),
                               ),
                               actions: <Widget>[
-                                FlatButton(
+                                ElevatedButton(
                                   child: Text(
                                     'Cancel',
                                     style: TextStyle(
@@ -533,7 +533,7 @@ class _BookPageEditState extends State<BookPageEdit> {
                                     Navigator.of(context).pop();
                                   },
                                 ),
-                                FlatButton(
+                                ElevatedButton(
                                   child: Text(
                                     'Done',
                                     style: TextStyle(
@@ -625,7 +625,7 @@ class _BookPageEditState extends State<BookPageEdit> {
                           content:
                               Text('This record will be permanently deleted'),
                           actions: <Widget>[
-                            FlatButton(
+                            ElevatedButton(
                               child: Text(
                                 'No',
                                 style: TextStyle(
@@ -636,7 +636,7 @@ class _BookPageEditState extends State<BookPageEdit> {
                                 Navigator.of(context).pop();
                               },
                             ),
-                            FlatButton(
+                            ElevatedButton(
                               child: Text(
                                 'Yes',
                                 style: TextStyle(
